@@ -1,0 +1,7 @@
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/stl-stats.dir
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/edit_cache.dir
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/rebuild_cache.dir
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/list_install_components.dir
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/install.dir
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/install/local.dir
+/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/build/CMakeFiles/install/strip.dir
