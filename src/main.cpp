@@ -19,9 +19,10 @@ int main() {
         std::istringstream iStream(szInput);
         std::string szCmd;
         std::vector<std::string> vecArgs;
-        std::string szArg;
+
         if (iStream >> szCmd) {
 
+            std::string szArg;
             while (iStream >> szArg) {
 
                 vecArgs.push_back(szArg);

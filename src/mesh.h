@@ -217,7 +217,7 @@ public:
         in.seekg(0, std::ios::end);
         const auto size = in.tellg();
         in.seekg(0, std::ios::beg);
-        if (size < 0) throw StlError("can't determine size of '" + stl_path.string() + "'");
+        if (size < 0) throw StlError("file is empty or program couldn't determine size of '" + stl_path.string() + "'");
 
         std::vector<std::byte> buf(static_cast<std::size_t>(size));
         if (size > 0 && !in.read(reinterpret_cast<char*>(buf.data()), size))
