@@ -60,6 +60,14 @@ int main() {
             std::cout << "Loaded mesh from '" + vecArgs[0] + "'\n";
             std::cout << "Data - Type: " + std::string(mesh->GetFormat() == STLFormat::BIN ? "Binary" : "ASCII") + '\n';
             std::cout << "Num of triangles: " + std::to_string(mesh->GetTriangles()->size()) + '\n';
+            TBoundingBox bbox = mesh->GetBoundingBox();
+            std::cout << "Bounding box: [" 
+                + std::string(std::to_string(bbox.Min.fX) + ", " + std::to_string(bbox.Min.fY) + ", " + std::to_string(bbox.Min.fZ)) + 
+                "], [" + std::string(std::to_string(bbox.Max.fX) + ", " + std::to_string(bbox.Max.fY) + ", " + std::to_string(bbox.Max.fZ)) + "]\n";
+            std::cout << "Surface area: " + std::to_string(mesh->GetSurfaceArea()) + "mm^2\n";
+            std::cout << "Volume: " + std::to_string(mesh->GetVolume()) + "mm^3\n";
+            std::cout << "Num of degenerate tris: " + std::to_string(mesh->GetNumberOfDegenerateTriangles()) + '\n';
+            std::cout << "Is watertight: " + std::string(mesh->IsWaterTight() ? "True" : "False") + '\n';
             continue;
         }
     
