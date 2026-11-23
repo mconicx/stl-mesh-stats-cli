@@ -19,8 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/ExternalProject/RepositoryInfo.txt.in"
   "/usr/share/cmake-3.28/Modules/ExternalProject/UpdateInfo.txt.in"
   "/usr/share/cmake-3.28/Modules/ExternalProject/cfgcmd.txt.in"
-  "/usr/share/cmake-3.28/Modules/ExternalProject/download.cmake.in"
-  "/usr/share/cmake-3.28/Modules/ExternalProject/extractfile.cmake.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/gitclone.cmake.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/gitupdate.cmake.in"
   "/usr/share/cmake-3.28/Modules/ExternalProject/mkdirs.cmake.in"
   "/usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake"
@@ -37,9 +37,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake"
-  "googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake"
-  "googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake"
-  "googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-urlinfo.txt"
+  "googletest-populate-prefix/tmp/googletest-populate-gitclone.cmake"
+  "googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-gitinfo.txt"
+  "googletest-populate-prefix/tmp/googletest-populate-gitupdate.cmake"
   "googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update-info.txt"
   "googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch-info.txt"
   "googletest-populate-prefix/tmp/googletest-populate-cfgcmd.txt"

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/ozpc/Documents/Programming/CPP/stl-mesh-stats-cli/include
 
-CXX_FLAGS = -g -std=c++20
+CXX_FLAGS = -g -std=c++20 -Wall -Wextra -Wpedantic
 

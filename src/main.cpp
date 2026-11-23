@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "mesh.h"
+#include "../include/stl/mesh.h"
 
 // /home/ozpc/Documents/Temp/cube_ascii.stl
 // /home/ozpc/Documents/Temp/cube_binary.stl
