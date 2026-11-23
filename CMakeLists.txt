@@ -37,7 +37,6 @@ target_link_libraries(stl-stats PRIVATE stl_core)
 
 install(TARGETS stl-stats RUNTIME DESTINATION bin)
 
-# <-- ADDED: GoogleTest & CTest integration
 include(CTest)
 if(BUILD_TESTING)
   include(FetchContent)

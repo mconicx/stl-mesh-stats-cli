@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../include/stl/mesh.h"
+#include "../include/stl/mesh.hpp"
 
 #include <array>
 #include <cstdint>
